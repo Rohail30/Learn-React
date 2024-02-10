@@ -1,0 +1,67 @@
+/*=============== Navbar ==================*/
+
+.navbar {
+  /* position: fixed; */
+  height: 70px;
+  width: 100%;
+  background: var(--foreground-color);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+
+.navbar a {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  display: flex;
+  margin: 0 8px;
+}
+
+.navbar .nav-links a {
+  margin: 0 10px;
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
+}
+.navbar .nav-links a:hover {
+  opacity: 0.5;
+}
+
+.navbar .appearance {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar nav {
+    padding: 0 10px;
+  }
+
+  .navbar .logo {
+    display: none;
+  }
+
+  .navbar .nav-links {
+    margin: 0;
+  }
+
+  .navbar .nav-links a {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+}

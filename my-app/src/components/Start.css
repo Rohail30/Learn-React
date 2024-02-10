@@ -1,0 +1,47 @@
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.start .s {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  background: var(--background-color) 50% 50% / calc(100% - 10px)
+      calc(100% - 10px) no-repeat,
+    var(--foreground-color);
+}
+
+.start .s h1 {
+  font-size: 5vw;
+  transition: 0.5s;
+  color: var(--primary-text-color);
+  cursor: cell;
+}
+
+.start .s i {
+  display: block;
+  font-size: 4vw;
+  color: var(--primary-text-color);
+}
+
+.start h1:hover {
+  margin-left: 15px;
+  color: white;
+}
+
+.start .s:hover i {
+  display: block;
+  color: white;
+}
+
+.start .s:hover {
+  background: var(--foreground-color);
+}
