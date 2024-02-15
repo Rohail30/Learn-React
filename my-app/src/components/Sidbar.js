@@ -13,6 +13,7 @@ const sidebar = () => {
         <NavLink to="/learn/lesson1">What is React?</NavLink>
         <NavLink to="/learn/lesson2">Getting Started</NavLink>
         <NavLink to="/learn/lesson3">What is Node.js?</NavLink>
+        <NavLink to="/learn/lesson4">How to start?</NavLink>
         {/* <NavLink to="/">New Project</NavLink> */}
       </div>
     </div>

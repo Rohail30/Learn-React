@@ -27,3 +27,14 @@
 .lesson li {
   font-family: 'Nunito', sans-serif;
 }
+
+.lesson pre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  background: var(--code);
+  margin-left: 25px;
+  min-width: 25vw;
+  height: 50px;
+}
