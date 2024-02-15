@@ -15,6 +15,7 @@
   --toggle-bg: #f0eb9d;
   --sidebar: #e7e9eb;
   --hover: #004e92;
+  --code: #d3d3d3;
 }
 
 [data-theme='dark'] {
@@ -27,4 +28,5 @@
   --toggle-fg: #00a6ff;
   --sidebar: #0a0a0a;
   --hover: #00c6ff;
+  --code: #383838;
 }
