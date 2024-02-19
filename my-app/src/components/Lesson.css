@@ -38,3 +38,14 @@
   min-width: 25vw;
   height: 50px;
 }
+
+.lesson .code {
+  background: var(--code);
+  margin-left: 25px;
+  min-width: 25vw;
+  max-width: fit-content;
+}
+
+.lesson .code p {
+  margin-left: 15px;
+}
