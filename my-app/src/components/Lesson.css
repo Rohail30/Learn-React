@@ -41,7 +41,6 @@
 
 .lesson .code {
   background: var(--code);
-  margin-left: 25px;
   min-width: 25vw;
   max-width: fit-content;
 }
