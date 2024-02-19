@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>© 2024 Your Company Name. All rights reserved.</p>
+        <p>© 2024 Rohail Rathore. All rights reserved.</p>
         <div className="social-links">
           <Link to="/">
             <i className="fab fa-facebook"></i>
