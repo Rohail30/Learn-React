@@ -1,2 +1,2 @@
 # Learn-React
-React tutorial website
+React tutorial website for beginners
