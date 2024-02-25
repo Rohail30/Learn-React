@@ -9,6 +9,7 @@ import Start from './Start';
 import Lesson4 from './Lesson4';
 import Lesson5 from './Lesson5';
 import Lesson6 from './Lesson6';
+import Lesson7 from './Lesson7';
 
 const Learn = () => {
   return (
@@ -23,6 +24,7 @@ const Learn = () => {
           <Route path="/lesson4" element={<Lesson4 />} />
           <Route path="/lesson5" element={<Lesson5 />} />
           <Route path="/lesson6" element={<Lesson6 />} />
+          <Route path="/lesson7" element={<Lesson7 />} />
         </Routes>
       </div>
     </div>
