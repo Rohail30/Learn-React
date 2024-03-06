@@ -38,9 +38,7 @@ const Lesson8 = () => {
         </p>
         <br />
         <div className="code">
-          <p>function Welcome(props) &#123;</p>
-          <p> return &lt;h1&gt;Hello, &#123;props.name&#125;&lt;/h1&gt;;</p>
-          <p>&#125;</p>
+          <p>const element = &lt;Welcome name="John" /&gt;;</p>
         </div>
       </div>
     </div>
